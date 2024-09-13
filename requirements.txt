@@ -1,0 +1,11 @@
+- NumPy (numpy):
+Purpose: NumPy is used for numerical operations and handling arrays efficiently.
+Usage in Script: It is used to generate the time variable (t), create sinusoidal patterns, add random noise, and perform statistical calculations like mean and variance.
+
+- Matplotlib (matplotlib.pyplot):
+Purpose: Matplotlib is a plotting library used for creating static, animated, and interactive visualizations in Python.
+Usage in Script: It is used to set up and update the real-time plot of the data stream, including plotting the data points and highlighting anomalies.
+
+- Collections (collections.deque):
+Purpose: The deque (double-ended queue) is a data structure that allows fast appends and pops from both ends.
+Usage in Script: It is used to maintain a sliding window of data points for calculating the Z-score in the anomaly detection function.
